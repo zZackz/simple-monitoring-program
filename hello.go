@@ -57,7 +57,6 @@ func setCommand() int {
 
 func initMonitoring() {
 	fmt.Println("Monitoring...")
-	// websites := []string{"https://www.alura.com.br", "https://www.google.com", "https://www.facebook.com"}
 
 	websites := readFileWebsite()
 
